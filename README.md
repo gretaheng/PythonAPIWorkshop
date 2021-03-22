@@ -14,7 +14,7 @@ This workshop assumes attendees are familiar with the basics of Python and Jupyt
 - View the API key on the App Details tab.
 - Confirm that the status of the API key is active and copy the API key to a .txt file.
 
-### Jupyter Notebook
+## Jupyter Notebook
 Jupyter Notebooks are a powerful way to write and run your Python code. We can write lines of code and run them one at a time. To launch a Jupyter notebook, open your terminal and navigate to the directory where you would like to save your notebook. Then type the command jupyter notebook and the program will instantiate a local server at localhost:8888 (or another specified port). A browser window should immediately pop up with the Jupyter Notebook interface, otherwise, you can use the address it gives you. To run a cell, you could hit enter and shift together or click the run button on the top.
 
 ## What is API
@@ -40,7 +40,7 @@ Rest stands for representational state transfer. It relies on the HTTP protocol 
 ### Response
 For our concerns today, we submit a request to the server endpoint via a URL and the response is returned as JSON data. JSON is an acronym for JavaScript Object Notation, which is. It is easy for humans to read and write, and easy for machines to parse and create. JSON is a text format that is built on name-value pairs. In python this is referred to as a dictionary. The value can be a string, a dictionary or a list. We parse this data just like we process any python dictionary.
 
-### Self-learning resource
+## Self-learning resources
 - Request for Twitter API: https://rapidapi.com/blog/how-to-use-the-twitter-api/
 - Tweepy Python Library: https://docs.tweepy.org/en/v3.5.0/getting_started.html
 - Mining twitter data with Python: https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/comment-page-1/

@@ -17,7 +17,7 @@ This workshop assumes attendees are familiar with the basics of Python and Jupyt
 ## Jupyter Notebook
 Jupyter Notebooks are a powerful way to write and run your Python code. We can write lines of code and run them one at a time. To launch a Jupyter notebook, open your terminal and navigate to the directory where you would like to save your notebook. Then type the command jupyter notebook and the program will instantiate a local server at localhost:8888 (or another specified port). A browser window should immediately pop up with the Jupyter Notebook interface, otherwise, you can use the address it gives you. To run a cell, you could hit enter and shift together or click the run button on the top.
 
-## What is API
+## What is an API
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. By establishing a common set of rules for exchanging information, APIs make it easier for two parties to communicate with each other. Each time you use an app like Twitter, post a tweet, or check the New York Times online articles on your phone, you’re using an API. When you use an application on your phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API. 
 
 We could think APIs as methods of accessing data or functionality from business or government organization. We can use a simple API call to retrieve data instead of having to code it by ourselves. Suppose you want to collect all tweets posted by Barack Obama. Of course, you can do that manually on twitter. But it can take a long time. Using Twitter API largely improves the efficiency of data collection because you only need to run a few lines of code and data can be collected automatically.
@@ -44,3 +44,6 @@ For our concerns today, we submit a request to the server endpoint via a URL and
 - Request for Twitter API: https://rapidapi.com/blog/how-to-use-the-twitter-api/
 - Tweepy Python Library: https://docs.tweepy.org/en/v3.5.0/getting_started.html
 - Mining twitter data with Python: https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/comment-page-1/
+
+## Reference
+[What is an API?](https://www.mulesoft.com/resources/api/what-is-an-api)

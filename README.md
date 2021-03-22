@@ -14,6 +14,9 @@ This workshop assumes attendees are familiar with the basics of Python and Jupyt
 - View the API key on the App Details tab.
 - Confirm that the status of the API key is active and copy the API key to a .txt file.
 
+### Jupyter Notebook
+Jupyter Notebooks are a powerful way to write and run your Python code. We can write lines of code and run them one at a time. To launch a Jupyter notebook, open your terminal and navigate to the directory where you would like to save your notebook. Then type the command jupyter notebook and the program will instantiate a local server at localhost:8888 (or another specified port). A browser window should immediately pop up with the Jupyter Notebook interface, otherwise, you can use the address it gives you. To run a cell, you could hit enter and shift together or click the run button on the top.
+
 ## What is API
 API is the acronym for Application Programming Interface, which is a software intermediary that allows two applications to talk to each other. By establishing a common set of rules for exchanging information, APIs make it easier for two parties to communicate with each other. Each time you use an app like Twitter, post a tweet, or check the New York Times online articles on your phone, you’re using an API. When you use an application on your phone, the application connects to the Internet and sends data to a server. The server then retrieves that data, interprets it, performs the necessary actions and sends it back to your phone. The application then interprets that data and presents you with the information you wanted in a readable way. This is what an API is - all of this happens via API. 
 
@@ -37,4 +40,4 @@ Rest stands for representational state transfer. It relies on the HTTP protocol 
 ### Response
 For our concerns today, we submit a request to the server endpoint via a URL and the response is returned as JSON data. JSON is an acronym for JavaScript Object Notation, which is. It is easy for humans to read and write, and easy for machines to parse and create. JSON is a text format that is built on name-value pairs. In python this is referred to as a dictionary. The value can be a string, a dictionary or a list. We parse this data just like we process any python dictionary.
 
-
+### Self-learning resource

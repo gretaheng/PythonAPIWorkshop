@@ -41,3 +41,6 @@ Rest stands for representational state transfer. It relies on the HTTP protocol 
 For our concerns today, we submit a request to the server endpoint via a URL and the response is returned as JSON data. JSON is an acronym for JavaScript Object Notation, which is. It is easy for humans to read and write, and easy for machines to parse and create. JSON is a text format that is built on name-value pairs. In python this is referred to as a dictionary. The value can be a string, a dictionary or a list. We parse this data just like we process any python dictionary.
 
 ### Self-learning resource
+- Request for Twitter API: https://rapidapi.com/blog/how-to-use-the-twitter-api/
+- Tweepy Python Library: https://docs.tweepy.org/en/v3.5.0/getting_started.html
+- Mining twitter data with Python: https://marcobonzanini.com/2015/03/02/mining-twitter-data-with-python-part-1/comment-page-1/

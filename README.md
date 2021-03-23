@@ -48,5 +48,6 @@ For our concerns today, we submit a request to the server endpoint via a URL and
 
 ## Reference
 [What is an API?](https://www.mulesoft.com/resources/api/what-is-an-api)
+
 [How to Use Jupyter Notebook?](https://www.codecademy.com/articles/how-to-use-jupyter-notebooks)
 

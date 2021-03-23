@@ -31,7 +31,7 @@ There are many kinds of studies we could do using the data we get from media and
 Rest stands for representational state transfer. It relies on the HTTP protocol and JSON data format to send and receive messages. What does it mean? Let’s say you’re trying to find articles about COVID on the New York TImes. You open up The New York Times official website, type “COVID” into a search field, hit enter, and you see a list of articles about this virus. You may notice the url showing on the top of the browser reflect your request (https://www.nytimes.com/search?query=covid). A REST API works in a similar way. You search something, generate a special url representing you request, and get a response back from the service you’re requesting from. But instead of a HTML webpage, you get the data in JSON format. The url request uses a suitable HTTP method and includes a query and an api key (url = https://api.nytimes.com/svc/search/v2/articlesearch.json?q=COVID&api-key=[YOUR_API_KEY]).
 
 ### Request
-*HTTP Methods*: When you search information about NYT or Twitter APIs, you may find the word GET somewhere on the webpage. Get is a http method that REST APIs use to read and retrieve data. Users can also modify and create data via different HTTP methods, but our focus today is Get method.
+*HTTP Methods*: When you search information about NYT or Twitter APIs, you may find the word GET somewhere on the webpage. Get is a http method that REST APIs use to read and retrieve data. 
 
 *Parameters*: Just like the website, we could specify and narrow the scope of our API requests by providing the date range, sections, and types of article. Some APIs also allow us to sort the results by date or by relevance. To do that, we could add several query parameters in the API request. In the New York Times Article Search API, the query parameters are the optional key-value pairs that appear after the question mark in the URL. For example, this URL (https://api.nytimes.com/svc/search/v2/articlesearch.json?begin_date=20200101&end_date=20200331&q=COVID&api-key=[YOUR_API_KEY]) shows that we want articles about COVID that were published between January 2020 and March 2020. Different APIs may have different parameters. Please read the API documentation carefully when you construct your URL request.
 
@@ -48,3 +48,5 @@ For our concerns today, we submit a request to the server endpoint via a URL and
 
 ## Reference
 [What is an API?](https://www.mulesoft.com/resources/api/what-is-an-api)
+[How to Use Jupyter Notebook?](https://www.codecademy.com/articles/how-to-use-jupyter-notebooks)
+

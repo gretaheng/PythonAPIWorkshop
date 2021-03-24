@@ -2,7 +2,7 @@
 This workshop assumes attendees are familiar with the basics of Python and Jupyter Notebook but all are encouraged to attend. We will learn about APIs (Application Program Interface) and use the New York Times Article Search API as an example to collect data returned from the API with Python. Then we will parse the messy data output into something meaningful. 
 
 ## Request a New York Time Article Search API Key
-- Go to the New York Times (NYT) Developer website and create your account
+- Go to the New York Times (NYT) Developer website and create your account (https://developer.nytimes.com/)
 - Look for the verification email in your inbox (spam folder) and click the link in that email
 - Sign into your NYT Developer account
 - Select Apps from the user drop-down
